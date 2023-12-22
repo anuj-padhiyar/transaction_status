@@ -35,3 +35,8 @@ This project implements a RESTful API using Flask and MongoDB, housed within a D
 
 2. **Get Card Details API** (`/get_card_details/<card_id>`):
    - This endpoint takes a `card_id` as a parameter and returns the status of the specified card from the MongoDB database.
+
+## Card Status API Live Demo
+
+Explore the live demo of the Zywa Card Status API at [https://status-uoo3.onrender.com](https://status-uoo3.onrender.com). This interactive demonstration enables you to interact with the API's functionality, allowing you to update card details by making a POST request to the `/update_details` endpoint. Additionally, you can retrieve the status of a specific card by making a GET request to the `/get_card_details/<card_id>` endpoint. The web application provides a hands-on experience of the API's capabilities, offering a real-time glimpse into its functionality. Try it out to see how the API works in action!
+
